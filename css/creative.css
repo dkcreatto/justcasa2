@@ -90,6 +90,8 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+	height: 70px;
+	padding-top: 20px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
