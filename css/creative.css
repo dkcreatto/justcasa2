@@ -91,7 +91,6 @@ aside {
     font-weight: 700;
     color: #f05f40;
 	height: 70px;
-	padding-top: 20px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -140,7 +139,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: #222;
     }
 
     .navbar-default .nav > li>a:hover,

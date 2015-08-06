@@ -46,9 +46,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-<!--                 <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-n.png" alt="JustCasa Logo"/></a>
- -->				<a class="pull-left page-scroll" href="#page-top" padding-top="5px"><img src="img/logo-t.png" alt="JustCasa Logo" width="40px" /></a>
-            </div>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-n.png" alt="JustCasa Logo"/></a>
+<!-- 				<a class="pull-left page-scroll" href="#page-top" padding-top="5px"><img src="img/logo-t.png" alt="JustCasa Logo" width="40px" /></a>
+ -->            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -258,8 +258,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <hr class="primary">
-                    <a data-toggle="tooltip" data-placement="left" title="Tooltip on left">Website Made with love by Nikhil Shah!</a>
-                    <a data-toggle="popover" data-placement="left" title="Contact Me" data-content="M. 0 9898626966 E. yourdesquared.me@gmail.com">Website Made with love by Nikhil Shah!</a>
+                    <!-- <a data-toggle="tooltip" data-placement="left" title="Tooltip on left">Website Made with love by Nikhil Shah!</a> -->
+                    <a data-toggle="popover" data-placement="top" title="Contact Me" data-trigger="hover"  data-html="true" data-content="M. 0 9898626966<br/> E. yourdesquared.me@gmail.com">Website Made with love by Nikhil Shah!</a>
                 </div>
             </div>
         </div>
@@ -282,7 +282,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover();
+  $('[data-toggle="tooltip"]').tooltip();
 
+})
+
+
+
+</script>
 </body>
 
 </html>

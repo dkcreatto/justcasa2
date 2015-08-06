@@ -45,15 +45,4 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
-
-})
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-
-(jQuery); // End of use strict
+})(jQuery); // End of use strict
