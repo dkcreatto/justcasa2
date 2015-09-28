@@ -481,3 +481,22 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+#gridcontainer {
+    width: 100%;
+}
+
+.grid-sizer{
+    width:33.333%;
+}
+.grid-item {
+  width: 33.333%;
+  float: left;
+}
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid-item--width2 { width: 400px; }
